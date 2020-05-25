@@ -76,13 +76,22 @@ print(x)
 # code 6
 # here we learn while loop with break and continue, break is to break the loop, and jump out of the loop, while
 # continue is jump to the top of loop, not break out of loop.
-while True:
-    result = input('> ')
-    if result[0] == '#':
-        continue
-    if result == 'done':
-        break
-    # the first print statement will never execute, because it is unreachable, it is in while loop, if while trigger continue
-    # then it jumps to the top of the loop, if break is triggered, it will jump out of loop, so, it is unreachable.
-    print('we break the loop')
-print('finally break the loop')
+# while True:
+#     result = input('> ')
+#     if result[0] == '#':
+#         continue
+#     if result == 'done':
+#         break
+#     # the first print statement will never execute, because it is unreachable, it is in while loop, if while trigger continue
+#     # then it jumps to the top of the loop, if break is triggered, it will jump out of loop, so, it is unreachable.
+#     print('we break the loop')
+# print('finally break the loop')
+
+
+
+# code 7
+# here we learn for loop, which is used to iterate all values in a list of string,
+friends = ['Jordan', 'Bo','Mimi', 'Fen']
+for onefriend in friends:
+    print('Hello, my friend,', onefriend, ', I am learing for loop')
+print('loop four times')
