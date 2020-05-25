@@ -21,3 +21,15 @@ elif x<3:
 else:
   print('x is 4')
 print('all done')
+# here, attention, if, elif and else, you can treat them as a big box, with many statement, if a statement is true, then
+# no matter how many more true statement down below the first true statement, only the first statement would be executed.
+
+
+person = input('Enter a number')
+try:
+  person2=int(person)
+  print('it is a number')
+except:
+  person2=-1
+  print('it is not a number')
+print('all done 1')
