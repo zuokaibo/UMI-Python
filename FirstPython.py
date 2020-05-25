@@ -106,3 +106,25 @@ for num in [12, 34, 23, 98, 44, 66]:
         largestsofar = num
         print ('largestsofar is ', largestsofar)
 print('so far, the largest number is ', largestsofar)
+
+
+# code 9
+# here we need to find the smallest number in the list of number, can we set a number to smallestsofar? what number should
+# that be if we donot know the list of numbers, or there are billions of number in the list?
+# here, we use None, also, assign it by "is"
+smallsofar = None
+for newnum in [12, 45, 67, 23, 3, 7]:
+    if smallsofar is None:
+        smallsofar = newnum
+#       this if statement is absolutely right for first time of looping.actually, this first time of loop is
+#     to assign the fisrt number in the list to the smallsofar variable. then compare it to the rest of list.
+#     in the statement below, is to compare the first number in the list to the rest numbers one by one, if there is
+#     a smaller one then the first number, then assign samller number to the smallsofar.
+    elif newnum < smallsofar:
+        smallsofar = newnum
+        print ('samllsofar', newnum)
+print ('smallest number so far is ', smallsofar)
+
+
+# code 10
+# here we lear to count a list of number.
