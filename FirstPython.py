@@ -95,3 +95,14 @@ friends = ['Jordan', 'Bo','Mimi', 'Fen']
 for onefriend in friends:
     print('Hello, my friend,', onefriend, ', I am learing for loop')
 print('loop four times')
+
+
+
+# code 8
+# here we learn how to find the largest number in a list of numbers.
+largestsofar = -1
+for num in [12, 34, 23, 98, 44, 66]:
+    if num > largestsofar:
+        largestsofar = num
+        print ('largestsofar is ', largestsofar)
+print('so far, the largest number is ', largestsofar)
