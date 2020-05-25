@@ -128,3 +128,16 @@ print ('smallest number so far is ', smallsofar)
 
 # code 10
 # here we lear to count a list of number.
+count = 0
+for num1 in [12, 24, 35, 46, 57]:
+    count = count +1
+    print(count, num1)
+
+
+
+# code 11
+# here we do sum
+sum = 0
+for num2 in [12,13,14,15,18,17,16,15]:
+    sum = sum + num2;
+    print ('sum now is: ', sum)
