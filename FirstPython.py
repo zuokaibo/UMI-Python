@@ -154,6 +154,9 @@ print(num6)
 numb1 = '  hello  world  '
 num7 = numb1.lstrip()
 print(num7)
+num8 = numb1.find('w')
+print(num8)
+
 
 
 
