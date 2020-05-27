@@ -6,8 +6,6 @@ print('hello python from IntelliJ')
 # also, git clone new ssh, if you want to set up different repo for different projects
 
 
-
-
 # code 2
 x = 2
 x = x + 2
@@ -25,10 +23,10 @@ elif x < 3:
 else:
     print('x is 4')
 print('all done')
+
+
 # here, attention, if, elif and else, you can treat them as a big box, with many statement, if a statement is true, then
 # no matter how many more true statement down below the first true statement, only the first statement would be executed.
-
-
 
 
 # code 3
@@ -45,7 +43,6 @@ print('all done')
 # some clients enter something not programmer expect.
 
 
-
 # code 4
 def greet(lang):
     if lang == 'en':
@@ -54,23 +51,26 @@ def greet(lang):
         print('I enter es')
     else:
         print('hello')
+
+
 greet('en')
 greet('bang')
+
+
 # in this piece of code, we learnt define a definition. lang is a parameter, then
 # we give it different argument, which are en and bang. then last two greet is invocation the def.
 
 
-
 #  code 5
 def addtwo(a, b):
-    result = a+b
+    result = a + b
     return result
-x = addtwo(5,6)
+
+
+x = addtwo(5, 6)
 print(x)
 # here, we practice def a function, and return statement, return determine the value in def definition.
 # then we assign two numbers to the def function, and pass it to x,
-
-
 
 
 # code 6
@@ -88,15 +88,12 @@ print(x)
 # print('finally break the loop')
 
 
-
 # code 7
 # here we learn for loop, which is used to iterate all values in a list of string,
-friends = ['Jordan', 'Bo','Mimi', 'Fen']
+friends = ['Jordan', 'Bo', 'Mimi', 'Fen']
 for onefriend in friends:
     print('Hello, my friend,', onefriend, ', I am learing for loop')
 print('loop four times')
-
-
 
 # code 8
 # here we learn how to find the largest number in a list of numbers.
@@ -104,9 +101,8 @@ largestsofar = -1
 for num in [12, 34, 23, 98, 44, 66]:
     if num > largestsofar:
         largestsofar = num
-        print ('largestsofar is ', largestsofar)
+        print('largestsofar is ', largestsofar)
 print('so far, the largest number is ', largestsofar)
-
 
 # code 9
 # here we need to find the smallest number in the list of number, can we set a number to smallestsofar? what number should
@@ -116,28 +112,32 @@ smallsofar = None
 for newnum in [12, 45, 67, 23, 3, 7]:
     if smallsofar is None:
         smallsofar = newnum
-#       this if statement is absolutely right for first time of looping.actually, this first time of loop is
-#     to assign the fisrt number in the list to the smallsofar variable. then compare it to the rest of list.
-#     in the statement below, is to compare the first number in the list to the rest numbers one by one, if there is
-#     a smaller one then the first number, then assign samller number to the smallsofar.
+    #       this if statement is absolutely right for first time of looping.actually, this first time of loop is
+    #     to assign the fisrt number in the list to the smallsofar variable. then compare it to the rest of list.
+    #     in the statement below, is to compare the first number in the list to the rest numbers one by one, if there is
+    #     a smaller one then the first number, then assign samller number to the smallsofar.
     elif newnum < smallsofar:
         smallsofar = newnum
-        print ('samllsofar', newnum)
-print ('smallest number so far is ', smallsofar)
-
+        print('samllsofar', newnum)
+print('smallest number so far is ', smallsofar)
 
 # code 10
 # here we lear to count a list of number.
 count = 0
 for num1 in [12, 24, 35, 46, 57]:
-    count = count +1
+    count = count + 1
     print(count, num1)
-
-
 
 # code 11
 # here we do sum
 sum = 0
-for num2 in [12,13,14,15,18,17,16,15]:
-    sum = sum + num2;
-    print ('sum now is: ', sum)
+for num2 in [12, 13, 14, 15, 18, 17, 16, 15]:
+    sum = sum + num2
+    print('sum now is: ', sum)
+
+# code 12
+# here we practice some methods used to string
+infomation = 'my email is kzuo2@wisc.edu, my MATC student number is 2904771.'
+num1 = infomation.startswith('2')
+print(num1)
+
