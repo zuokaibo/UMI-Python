@@ -140,4 +140,21 @@ for num2 in [12, 13, 14, 15, 18, 17, 16, 15]:
 infomation = 'my email is kzuo2@wisc.edu, my MATC student number is 2904771.'
 num1 = infomation.startswith('2')
 print(num1)
+num2 = infomation.find('2')
+print(num2)
+num4= infomation.find('is 2')
+print(num4)
+num5 = infomation[54 : ]
+print(num5)
+
+numb = 'student'
+num6 = numb.upper()
+print(num6)
+
+numb1 = '  hello  world  '
+num7 = numb1.lstrip()
+print(num7)
+
+
+
 
