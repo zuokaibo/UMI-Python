@@ -159,5 +159,14 @@ print(num8)
 
 
 
+# code 13
+# how to read a file, and out put the file
+
+file1 = open('AFileForPythonTest.txt')
+for cheese in file1:
+    print(cheese)
+
+
+
 
 
