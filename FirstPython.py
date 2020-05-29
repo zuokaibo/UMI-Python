@@ -160,11 +160,24 @@ print(num8)
 
 
 # code 13
-# how to read a file, and out put the file
-
+# how to read a file, and out put the file, here one line is one string.
 file1 = open('AFileForPythonTest.txt')
 for cheese in file1:
+    cheese = cheese.rstrip()
+    # when you use open function, then a \n is added at the end of every line in the file, so if you
+    # want to move it, then use rstrip() function, check the code with and with out line166.
     print(cheese)
+
+
+# code 14
+# how to open a file, but read the characters rather than every lines.
+file2 = open('AFileForPythonTest.txt')
+count = 0
+charCount = file2.read()
+print(len(charCount))
+print(charCount[:25])
+
+
 
 
 

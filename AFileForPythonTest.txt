@@ -1,0 +1,38 @@
+I cannot figure out why I can't change background images when I use onmouseover events. 
+My goal is when I put mouse over first pic, then this pic will show up on the top of page, 
+when I move my mouse to another pic, then this new pic will show up on the top instead, 
+then when I move mouse to the third pic, the third pic will show up on the top. 
+Here I attached my html code and js code. Please help me.
+
+function upDate(previewPic){
+    // document.getElementById("image").style.backgroundColor = "green";
+    document.getElementById("image").style.backgroundColor = "url(previewPic.src)";
+    document.getElementById("image").innerHTML = previewPic.alt + ".  this is onmouseover events";
+}
+
+function unDo(){
+    document.getElementById("image").style.backgroundColor = "#8e68ff";
+    document.getElementById("image").innerHTML = "Hover over an image below to display here.";
+}
+
+<div id = "image">
+    Hover over an image below to display here.
+</div>
+
+<img class = "preview"
+     alt = "Styling with a Bandana"
+     src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg"
+     onmouseover = "upDate(this)"
+     onmouseout = "unDo()">
+
+<img class = "preview"
+     alt = "With My Boy"
+     src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+     onmouseover = "upDate(this)"
+     onmouseout = "unDo()">
+
+<img class = "preview"
+     src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"
+     alt = "Young Puppy"
+     onmouseover = "upDate(this)"
+     onmouseout = "unDo()">
