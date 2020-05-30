@@ -162,6 +162,8 @@ print(num8)
 # code 13
 # how to read a file, and out put the file, here one line is one string.
 file1 = open('AFileForPythonTest.txt')
+# print(file1) doesnot mean it will upload whole file here to read. if you want to read the content of
+# file, you must use for loop to read it line by line.
 for cheese in file1:
     cheese = cheese.rstrip()
     # when you use open function, then a \n is added at the end of every line in the file, so if you
@@ -178,6 +180,22 @@ print(len(charCount))
 print(charCount[:25])
 
 
+
+# code 15
+han=open('mbox-short.txt')
+for line in han:
+    # rstrip() function remove the space at the very end of every line in txt.
+    line = line.rstrip()
+    # split() function is used to split the line by space, and put those single word into a list, also you can
+    # define the split sign, like split the line by space or @ or ; or others, put it in split() function,like this
+    #  split(';') or split('@')
+    wds = line.split()
+    # the first statement: len(wds) < 3 is called guardian, if this statement is right, then jump to print function,
+    # otherwise, continue, so,basically, the continue means skip the conditions in if statement and jump back to the
+    # top of for loop.
+    if len(wds) < 3 or wds[0] != 'From':
+        continue
+    print(wds[2])
 
 
 
