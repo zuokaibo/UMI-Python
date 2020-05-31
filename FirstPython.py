@@ -234,6 +234,27 @@ for aaa, bbb in jjj.items():
 
 
 
+# check words frequency in an file. find which words showing most.
+bigFile = open('mbox-short.txt')
+lines = bigFile.read()
+line = lines.split()
+countWords = dict()
+for word in line:
+    countWords[word] = countWords.get(word, 0) + 1
+print (countWords.items())
+
+# now, let us find out which word shows up most, and how many times it shows up
+bigWord = None
+bigCount = None
+for oneWord, newCount in countWords.items():
+    if bigCount is None or newCount > bigCount:
+        bigCount = newCount
+        bigWord = oneWord
+print(bigWord, bigCount)
+
+
+
+
 
 
 
