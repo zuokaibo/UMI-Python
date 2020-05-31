@@ -220,6 +220,19 @@ for name in names:
 print(counts)
 
 
+# code 18
+# convert a dictionary to a list, then print the value and the key. by key() method.
+# below line is to declare a dictionary.
+jjj = {'Jordan': 1, 'Aerts': 2, 'Bo': 3}
+print(list(jjj))
+print(jjj.keys())
+print(jjj.values())
+print(jjj.items())
+
+
+
+
+
 
 
 
