@@ -228,6 +228,12 @@ print(list(jjj))
 print(jjj.keys())
 print(jjj.values())
 print(jjj.items())
+# here is another way to print items. aaa means key, bbb means value, so below code means, if key, values in dict.items
+for aaa, bbb in jjj.items():
+    print(aaa, bbb)
+
+
+
 
 
 
