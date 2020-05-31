@@ -198,6 +198,32 @@ for line in han:
     print(wds[2])
 
 
+# code 17
+# dictionary.
+counts = dict()
+counts['Jordan'] = 2
+counts['Aerts'] = 2
+counts['Bo'] = 3
+print(counts)
+
+# code 16
+# learn dictionary with get method, dictionary is a different list with key:value in it, key is the label of the thing,
+# value is the times that label showing up.
+
+# below line is how to define a dictionary.
+counts = dict()
+# below line is a list, we want to put those names into dictionary, and count how many times each one showed up.
+names = ['Jordan', 'Bo', 'Ding', 'Aerts', 'Aerts', 'Jordan', 'Jordan','puppy']
+for name in names:
+    # here, we say, if name in the names, we use get method to set showing time to 1, otherwise, 0
+    counts[name] = counts.get(name, 0) + 1
+print(counts)
+
+
+
+
+
+
 
 
 
