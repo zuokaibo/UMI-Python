@@ -291,6 +291,22 @@ for val, key in lst[:10]:
 
 
 
+# here, we learn regular expression, when we use it, we need import re it to our code
+import re
+hand = open('mbox-short.txt')
+for row in hand:
+    row = row.rstrip()
+    if re.search('^From: ', row):
+        print(row)
+    # or you can use find() to seach a line which has the word you want,
+    # if row.find('From: ') >= 0:
+    #     print(row)
+
+
+
+
+
+
 
 
 
