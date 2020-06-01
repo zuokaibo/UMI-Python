@@ -297,12 +297,23 @@ hand = open('mbox-short.txt')
 for row in hand:
     row = row.rstrip()
     if re.search('^From: ', row):
+        # the character ^ means the first letter, so ^From, means start with From, if From in the middle of line, it
+        # doesnt not count, becasue the line is not started with From.
         print(row)
-    # or you can use find() to seach a line which has the word you want,
+    # or you can use find() to seach a line which has the word you want, like code below, we want a line where it has
+    # From.
     # if row.find('From: ') >= 0:
     #     print(row)
 
 
+# socket in python
+import socket
+# first, we need to import socket, second, we tell socket that I want connect
+# to internet by socket.AF_INET, then set up the connection point, but not connect it,
+# it is kind of like tell internet, ok, i am ready to connect.
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# the code below, it is connecting, connect to data.pr4e,org, using port 80
+mysock.connect(('data.pr4e.org', 80))
 
 
 
