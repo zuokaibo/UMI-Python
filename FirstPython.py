@@ -82,8 +82,9 @@ print(x)
 #         continue
 #     if result == 'done':
 #         break
-#     # the first print statement will never execute, because it is unreachable, it is in while loop, if while trigger continue
-#     # then it jumps to the top of the loop, if break is triggered, it will jump out of loop, so, it is unreachable.
+#     # the first print statement will never execute, because it is unreachable, it is in while loop, if while trigger
+#     continue then it jumps to the top of the loop, if break is triggered, it will jump out of loop, so, it is
+#     unreachable.
 #     print('we break the loop')
 # print('finally break the loop')
 
@@ -251,6 +252,62 @@ for oneWord, newCount in countWords.items():
         bigCount = newCount
         bigWord = oneWord
 print(bigWord, bigCount)
+
+
+# here we learn tuples. and how to sorted tuple by key value, notice, it is key order, not value order,
+# if you want to get value order, you must flip the key and value, then sort the new "key". to flip it then
+# sort it, you need reverse = True.
+
+# here let's find out 10 most common words in the txt.
+fhand = open('intro.txt', 'r')
+counts = dict()
+for line in fhand:
+    # here we loop every line in the file
+    words = line.split()
+    # here we loop every word in the line, and put the word into a dictionary
+    for w in words:
+        counts[w] = counts.get(w, 0) + 1
+# so far we put all words into a dictionary, now we need to flip it,
+# and find out 10 biggest "value", here we call it new key. to do that,
+# we need a new list, then put new key-value(it was supposed to be value-key
+# in original dictionary, but we flipped it, and put new combination into a list)
+lst = list()
+newflip = dict()
+for key, val in counts.items():
+    newflip = (val, key)
+    lst.append(newflip)
+
+    # here, code above in line 278, never never never use syntax like this: lst = lst.append(newflip), becasue list is
+    # mutable, so never use "=" to mutable data structure.
+
+# the codes above, we flip the key value in dictionary to value key order in the new list
+# code below, we start to sorted this new list
+lst = sorted(lst, reverse=True)
+# reverse = True, means, order "key" from biggest to smallest
+for val, key in lst[:10]:
+    print(key, val)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
