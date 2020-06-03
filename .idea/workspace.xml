@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c6a9255-782d-463f-8292-969a0e8f65c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/UMI-Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/HEAD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/description" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/applypatch-msg.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/commit-msg.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/fsmonitor-watchman.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/post-update.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-applypatch.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-commit.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-push.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-rebase.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-receive.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/prepare-commit-msg.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/update.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/info/exclude" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/objects/pack/pack-6b76d17b9d042d46496830555530efd6d92abbeb.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/objects/pack/pack-6b76d17b9d042d46496830555530efd6d92abbeb.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.git/packed-refs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="14" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cAf3TCBQgVHzrWIVcwjG8rV7OQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c6a9255-782d-463f-8292-969a0e8f65c1" name="Default Changelist" comment="" />
+      <created>1589976118437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589976118437</updated>
+      <workItem from="1589976130706" duration="3469000" />
+      <workItem from="1590227232391" duration="24000" />
+      <workItem from="1590342335962" duration="10530000" />
+      <workItem from="1590411685815" duration="21000" />
+      <workItem from="1590606890569" duration="2075000" />
+      <workItem from="1590740573115" duration="17000" />
+      <workItem from="1590755777967" duration="2689000" />
+      <workItem from="1590835088937" duration="1140000" />
+      <workItem from="1590842589172" duration="13000" />
+      <workItem from="1590930609963" duration="5201000" />
+      <workItem from="1590989248988" duration="4221000" />
+      <workItem from="1591099302425" duration="5133000" />
+      <workItem from="1591119851195" duration="758000" />
+      <workItem from="1591120626264" duration="905000" />
+      <workItem from="1591121541197" duration="3201000" />
+      <workItem from="1591124763238" duration="271000" />
+      <workItem from="1591163248945" duration="2241000" />
+      <workItem from="1591176743506" duration="89000" />
+      <workItem from="1591177079863" duration="4722000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="581" y="181" key="#Inspections" timestamp="1591175960211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="581" y="181" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1591175960211" />
+    <state x="451" y="94" key="#Intentions" timestamp="1591123683318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="451" y="94" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1591123683318" />
+    <state x="311" y="0" key="#Project_Structure" timestamp="1591177710728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="311" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1591177710728" />
+    <state x="902" y="167" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591119760615">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="902" y="167" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591119760615" />
+    <state x="1331" y="221" key="FileChooserDialogImpl" timestamp="1591177679206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1331" y="221" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591177679206" />
+    <state x="833" y="418" key="Github.ShareDialog" timestamp="1589977537753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="833" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589977537753" />
+    <state x="128" y="0" key="SettingsEditor" timestamp="1591177403158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="128" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591177403158" />
+    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1589977432384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589977432384" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1589977554047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1589977554047" />
+  </component>
+</project>
