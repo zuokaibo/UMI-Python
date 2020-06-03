@@ -11,28 +11,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a9255-782d-463f-8292-969a0e8f65c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/UMI-Python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/HEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/description" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/applypatch-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/commit-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/fsmonitor-watchman.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/post-update.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-applypatch.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-commit.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-push.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-rebase.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/pre-receive.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/prepare-commit-msg.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/hooks/update.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/info/exclude" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/objects/pack/pack-6b76d17b9d042d46496830555530efd6d92abbeb.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/objects/pack/pack-6b76d17b9d042d46496830555530efd6d92abbeb.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMI-Python.git/packed-refs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AFileForPythonTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirstPython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegularExpression.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMI-Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key1.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mbox-short.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net-intro.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urllinks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/beautifulsoup4-4.9.1.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/beautifulsoup4-4.9.1.dist-info/COPYING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/beautifulsoup4-4.9.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/beautifulsoup4-4.9.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/beautifulsoup4-4.9.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/beautifulsoup4-4.9.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/beautifulsoup4-4.9.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/beautifulsoup4-4.9.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/builder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/builder/_html5lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/builder/_htmlparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/builder/_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/dammit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/diagnose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/tests/test_builder_registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/tests/test_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/tests/test_html5lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/tests/test_htmlparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/tests/test_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/tests/test_soup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/bs4/tests/test_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-2.0.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-2.0.1.dist-info/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-2.0.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-2.0.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-2.0.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve-2.0.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/__meta__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/css_match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/css_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/css_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/soupsieve/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +143,7 @@
       <workItem from="1591124763238" duration="271000" />
       <workItem from="1591163248945" duration="2241000" />
       <workItem from="1591176743506" duration="89000" />
-      <workItem from="1591177079863" duration="4722000" />
+      <workItem from="1591177079863" duration="5746000" />
     </task>
     <servers />
   </component>
@@ -169,5 +202,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1589977554047" />
+    <state x="676" y="402" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1591189635537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="676" y="402" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591189635537" />
   </component>
 </project>
