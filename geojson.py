@@ -31,3 +31,14 @@ while True:
     print('lat', lat, 'lng', lng)
     location=js['results'][0]['formatted_address']
     print(location)
+
+
+# above code is fine, nothing wrong with the code, but we need to key
+# to authenticate the api,
+# You need an API key. Otherwise it won't work.
+#
+# To get an API Key you have to go to this webpage
+# https://cloud.google.com/maps-platform/#get-started
+# and pick the products you need. Also select or create a
+# project and finally you have to set up a billing account.
+# Unfortunately it isn't for free as far as I know.
