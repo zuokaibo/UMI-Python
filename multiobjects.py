@@ -2,7 +2,7 @@ class PartyAnimials:
     x = 0
     name = ""
 
-    def _init_(self, z):
+    def __init__(self, z):
         self.name = z
         print(self.name, "constructed")
 
