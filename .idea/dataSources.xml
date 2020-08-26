@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="H2 - FirstTable" uuid="8be66317-73e5-4780-ba34-4c036dd22d24">
+    <data-source source="LOCAL" name="H2" uuid="8be66317-73e5-4780-ba34-4c036dd22d24">
       <driver-ref>h2.unified</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:$PROJECT_DIR$/Database/FirstTable</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="SecondTable" uuid="e3a86c67-5573-4ae7-9e74-82480f29b22b">
+    <data-source source="LOCAL" name="SQLite" uuid="e3a86c67-5573-4ae7-9e74-82480f29b22b">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Database/SecondTable</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MySql" uuid="32335e41-023c-419d-bc6b-b7c618341f0c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="email" uuid="9efdbb9e-2f45-4918-8f6d-3c424f28703c">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\zuoka\Desktop\All\Projects\UMI-Python\email.sqlite</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>
