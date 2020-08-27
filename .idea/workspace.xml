@@ -11,15 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a9255-782d-463f-8292-969a0e8f65c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WhileTry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/email.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manyrelationship.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbox-short.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mbox-short.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mbox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mbox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhileTry.py" beforeDir="false" afterPath="$PROJECT_DIR$/WhileTry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="f1064031-0e92-4c94-9f82-aef700554c7d" />
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -101,6 +95,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -141,12 +136,14 @@
       <workItem from="1596141025404" duration="653000" />
       <workItem from="1596191313515" duration="599000" />
       <workItem from="1598451317953" duration="56000" />
-      <workItem from="1598451532443" duration="757000" />
+      <workItem from="1598451532443" duration="1501000" />
+      <workItem from="1598453572653" duration="40000" />
+      <workItem from="1598556426124" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -196,10 +193,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="167" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591119760615" />
-    <state x="636" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598451332805">
+    <state x="636" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598453409317">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="636" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1598451332805" />
+    <state x="636" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1598453409317" />
     <state x="561" y="215" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1591460250570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

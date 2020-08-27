@@ -19,6 +19,7 @@ while True:
         continue
     if smallest is None:
         smallest = num
+        largest = num
     if num >= largest :
         largest = num
     elif num <= smallest :
