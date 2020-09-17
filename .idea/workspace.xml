@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a9255-782d-463f-8292-969a0e8f65c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/regular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhileTry.py" beforeDir="false" afterPath="$PROJECT_DIR$/WhileTry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.MySQL" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UMI-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +150,10 @@
       <workItem from="1598451317953" duration="56000" />
       <workItem from="1598451532443" duration="1501000" />
       <workItem from="1598453572653" duration="40000" />
-      <workItem from="1598556426124" duration="23000" />
+      <workItem from="1598556426124" duration="103000" />
+      <workItem from="1598556543159" duration="79000" />
+      <workItem from="1600343280840" duration="44000" />
+      <workItem from="1600349358191" duration="1229000" />
     </task>
     <servers />
   </component>
