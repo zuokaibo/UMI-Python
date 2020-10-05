@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a9255-782d-463f-8292-969a0e8f65c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xmlcontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jsoncontent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,15 +73,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.MySQL" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,7 +161,8 @@
       <workItem from="1600349358191" duration="1276000" />
       <workItem from="1600453711931" duration="851000" />
       <workItem from="1601038177877" duration="3385000" />
-      <workItem from="1601888263286" duration="1192000" />
+      <workItem from="1601888263286" duration="1262000" />
+      <workItem from="1601898820698" duration="4083000" />
     </task>
     <servers />
   </component>
