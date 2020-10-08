@@ -2,5 +2,6 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/Database/FirstTable.mv.db" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/tables.py" dialect="GenericSQL" />
   </component>
 </project>
