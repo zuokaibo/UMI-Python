@@ -1,16 +1,34 @@
 import urllib.request, urllib.parse, urllib.error
 import json
+import ssl
 
-serviceurl = 'http: //map.googleapis.com/maps/api/geocode/json?'
+api_key = 'AIzaSyATLTulMxu0qKuDTpNvgC_emBaL91vMdfc'
+# If you have a Google Places API key, enter it here
+# api_key = 'AIzaSy___IDByT70'
+# https://developers.google.com/maps/documentation/geocoding/intro
+
+if api_key is False:
+    api_key = 42
+    serviceurl = 'http://py4e-data.dr-chuck.net/json?'
+else :
+    serviceurl = 'https://maps.googleapis.com/maps/api/geocode/json?'
+
+# Ignore SSL certificate errors
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
 
 while True:
     address = input('Enter location: ')
-    if len(address) < 1:
-        break
+    if len(address) < 1: break
 
-    url = serviceurl + urllib.parse.urlencode({'address':address})
+    parms = dict()
+    parms['address'] = address
+    if api_key is not False: parms['key'] = api_key
+    url = serviceurl + urllib.parse.urlencode(parms)
+
     print('Retrieving', url)
-    uh = urllib.request.urlopen(url)
+    uh = urllib.request.urlopen(url, context=ctx)
     data = uh.read().decode()
     print('Retrieved', len(data), 'characters')
 
@@ -20,25 +38,15 @@ while True:
         js = None
 
     if not js or 'status' not in js or js['status'] != 'OK':
-        print('Failure')
+        print('==== Failure To Retrieve ====')
         print(data)
         continue
 
-    print(json.dumps(js, indent = 4))
+    print(json.dumps(js, indent=4))
 
-    lat = js["results"][0]["geometry"]["location"]["lat"]
-    lng = js["results"][0]["geometry"]["location"]["lng"]
+    lat = js['results'][0]['geometry']['location']['lat']
+    lng = js['results'][0]['geometry']['location']['lng']
     print('lat', lat, 'lng', lng)
-    location=js['results'][0]['formatted_address']
+    location = js['results'][0]['formatted_address']
     print(location)
 
-
-# above code is fine, nothing wrong with the code, but we need to key
-# to authenticate the api,
-# You need an API key. Otherwise it won't work.
-#
-# To get an API Key you have to go to this webpage
-# https://cloud.google.com/maps-platform/#get-started
-# and pick the products you need. Also select or create a
-# project and finally you have to set up a billing account.
-# Unfortunately it isn't for free as far as I know.

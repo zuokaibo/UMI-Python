@@ -33,5 +33,16 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="geodata" uuid="f2b65990-6e47-4420-8cb3-da2c1ca34736">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\zuoka\Desktop\All\Projects\UMI-Python\geodata.sqlite</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+        </library>
+      </libraries>
+    </data-source>
   </component>
 </project>
