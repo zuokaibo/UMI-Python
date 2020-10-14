@@ -11,15 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a9255-782d-463f-8292-969a0e8f65c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geodata.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodump.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geoload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/where.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/where.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geodata/geodata/geodata.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geodata.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/geodata/geodata/where.data" beforeDir="false" afterPath="$PROJECT_DIR$/geodata/geodata/where.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geojson.py" beforeDir="false" afterPath="$PROJECT_DIR$/geojson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geodata/geodata/where.js" beforeDir="false" afterPath="$PROJECT_DIR$/geodata/geodata/where.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geodump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geojson.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/where.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/where.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,17 +79,6 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UMI-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,7 +163,8 @@
       <workItem from="1602149346662" duration="3672000" />
       <workItem from="1602175319489" duration="1243000" />
       <workItem from="1602227566115" duration="4145000" />
-      <workItem from="1602231753135" duration="2301000" />
+      <workItem from="1602231753135" duration="2383000" />
+      <workItem from="1602660761691" duration="2339000" />
     </task>
     <servers />
   </component>
